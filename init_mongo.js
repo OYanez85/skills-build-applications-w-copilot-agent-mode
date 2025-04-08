@@ -1,12 +1,20 @@
-// Switch to the octofit_db database
-use octofit_db;
+// Initialize the MongoDB database and create collections with the required structure
 
-// Create collections
-db.createCollection('users');
-db.createCollection('teams');
-db.createCollection('activity');
-db.createCollection('leaderboard');
-db.createCollection('workouts');
+// Explicitly reference the database for each operation
+const db = db.getSiblingDB("octofit_db");
 
-// Create a unique index for the users collection
-db.users.createIndex({ email: 1 }, { unique: true });
+// Create the users collection with a unique index on the email field
+db.createCollection("users");
+db.users.createIndex({ "email": 1 }, { unique: true });
+
+// Create the teams collection
+db.createCollection("teams");
+
+// Create the activity collection
+db.createCollection("activity");
+
+// Create the leaderboard collection
+db.createCollection("leaderboard");
+
+// Create the workouts collection
+db.createCollection("workouts");

@@ -78,3 +78,66 @@
 2025-04-08T19:10:34.617+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:35596 #11 (1 connection now open)
 2025-04-08T19:10:34.617+0000 I NETWORK  [conn11] received client metadata from 127.0.0.1:35596 conn11: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
 2025-04-08T19:10:34.621+0000 I NETWORK  [conn11] end connection 127.0.0.1:35596 (0 connections now open)
+2025-04-08T19:30:23.620+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:58878 #12 (1 connection now open)
+2025-04-08T19:30:23.620+0000 I NETWORK  [conn12] received client metadata from 127.0.0.1:58878 conn12: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T19:30:23.623+0000 I NETWORK  [conn12] end connection 127.0.0.1:58878 (0 connections now open)
+2025-04-08T19:30:39.055+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:48772 #13 (1 connection now open)
+2025-04-08T19:30:39.055+0000 I NETWORK  [conn13] received client metadata from 127.0.0.1:48772 conn13: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T19:30:39.058+0000 I NETWORK  [conn13] end connection 127.0.0.1:48772 (0 connections now open)
+2025-04-08T19:30:45.870+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:54432 #14 (1 connection now open)
+2025-04-08T19:30:45.870+0000 I NETWORK  [conn14] received client metadata from 127.0.0.1:54432 conn14: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T19:30:45.873+0000 I NETWORK  [conn14] end connection 127.0.0.1:54432 (0 connections now open)
+2025-04-08T19:31:01.331+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:40858 #15 (1 connection now open)
+2025-04-08T19:31:01.332+0000 I NETWORK  [conn15] received client metadata from 127.0.0.1:40858 conn15: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T19:31:01.334+0000 I NETWORK  [conn15] end connection 127.0.0.1:40858 (0 connections now open)
+2025-04-08T19:31:16.961+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:57464 #16 (1 connection now open)
+2025-04-08T19:31:16.961+0000 I NETWORK  [conn16] received client metadata from 127.0.0.1:57464 conn16: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T19:31:16.963+0000 I NETWORK  [conn16] end connection 127.0.0.1:57464 (0 connections now open)
+2025-04-08T19:31:28.363+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:36260 #17 (1 connection now open)
+2025-04-08T19:31:28.364+0000 I NETWORK  [conn17] received client metadata from 127.0.0.1:36260 conn17: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T19:31:28.366+0000 I NETWORK  [conn17] end connection 127.0.0.1:36260 (0 connections now open)
+2025-04-08T19:31:34.995+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:42618 #18 (1 connection now open)
+2025-04-08T19:31:34.995+0000 I NETWORK  [conn18] received client metadata from 127.0.0.1:42618 conn18: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T19:31:34.998+0000 I NETWORK  [conn18] end connection 127.0.0.1:42618 (0 connections now open)
+2025-04-08T19:31:42.673+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:42634 #19 (1 connection now open)
+2025-04-08T19:31:42.673+0000 I NETWORK  [conn19] received client metadata from 127.0.0.1:42634 conn19: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T19:31:42.678+0000 I NETWORK  [conn19] end connection 127.0.0.1:42634 (0 connections now open)
+2025-04-08T19:31:57.621+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:40172 #20 (1 connection now open)
+2025-04-08T19:31:57.622+0000 I NETWORK  [conn20] received client metadata from 127.0.0.1:40172 conn20: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T19:31:57.624+0000 I NETWORK  [conn20] end connection 127.0.0.1:40172 (0 connections now open)
+2025-04-08T19:32:31.756+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:39640 #21 (1 connection now open)
+2025-04-08T19:32:31.757+0000 I NETWORK  [conn21] received client metadata from 127.0.0.1:39640 conn21: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2025-04-08T19:32:31.764+0000 I NETWORK  [conn21] end connection 127.0.0.1:39640 (0 connections now open)
+2025-04-08T19:51:44.282+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:40072 #22 (1 connection now open)
+2025-04-08T19:51:44.282+0000 I NETWORK  [conn22] received client metadata from 127.0.0.1:40072 conn22: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-08T19:51:44.283+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:40076 #23 (2 connections now open)
+2025-04-08T19:51:44.283+0000 I NETWORK  [conn23] received client metadata from 127.0.0.1:40076 conn23: { driver: { name: "PyMongo", version: "3.12.0" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.12.1.final.0" }
+2025-04-08T19:51:44.284+0000 I COMMAND  [conn23] CMD: drop octofit_db.users
+2025-04-08T19:51:44.284+0000 I COMMAND  [conn23] CMD: drop octofit_db.teams
+2025-04-08T19:51:44.284+0000 I COMMAND  [conn23] CMD: drop octofit_db.activity
+2025-04-08T19:51:44.285+0000 I COMMAND  [conn23] CMD: drop octofit_db.leaderboard
+2025-04-08T19:51:44.285+0000 I COMMAND  [conn23] CMD: drop octofit_db.workouts
+2025-04-08T19:51:44.796+0000 I NETWORK  [conn23] end connection 127.0.0.1:40076 (1 connection now open)
+2025-04-08T19:51:44.796+0000 I NETWORK  [conn22] end connection 127.0.0.1:40072 (0 connections now open)
+2025-04-08T20:20:53.073+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:42832 #24 (1 connection now open)
+2025-04-08T20:20:53.073+0000 I NETWORK  [conn24] received client metadata from 127.0.0.1:42832 conn24: { driver: { name: "PyMongo", version: "3.11.4" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.11.11.final.0" }
+2025-04-08T20:20:53.073+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:42838 #25 (2 connections now open)
+2025-04-08T20:20:53.073+0000 I NETWORK  [conn25] received client metadata from 127.0.0.1:42838 conn25: { driver: { name: "PyMongo", version: "3.11.4" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.11.11.final.0" }
+2025-04-08T20:20:53.074+0000 I COMMAND  [conn25] CMD: drop octofit_db.customuser
+2025-04-08T20:20:53.074+0000 I COMMAND  [conn25] CMD: drop octofit_db.team
+2025-04-08T20:20:53.074+0000 I COMMAND  [conn25] CMD: drop octofit_db.activity
+2025-04-08T20:20:53.075+0000 I COMMAND  [conn25] CMD: drop octofit_db.leaderboard
+2025-04-08T20:20:53.075+0000 I COMMAND  [conn25] CMD: drop octofit_db.workout
+2025-04-08T20:20:53.079+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:42854 #26 (3 connections now open)
+2025-04-08T20:20:53.079+0000 I NETWORK  [conn26] received client metadata from 127.0.0.1:42854 conn26: { driver: { name: "PyMongo", version: "3.11.4" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.11.11.final.0" }
+2025-04-08T20:20:53.080+0000 I NETWORK  [listener] connection accepted from 127.0.0.1:42866 #27 (4 connections now open)
+2025-04-08T20:20:53.080+0000 I NETWORK  [conn27] received client metadata from 127.0.0.1:42866 conn27: { driver: { name: "PyMongo", version: "3.11.4" }, os: { type: "Linux", name: "Linux", architecture: "x86_64", version: "6.8.0-1021-azure" }, platform: "CPython 3.11.11.final.0" }
+2025-04-08T20:20:53.081+0000 I STORAGE  [conn27] createCollection: octofit_db.octofit_tracker_customuser with generated UUID: 94c69d08-bdfc-4c26-a9c6-ad9993f2e026
+2025-04-08T20:20:53.092+0000 I STORAGE  [conn27] createCollection: octofit_db.octofit_tracker_team with generated UUID: 087366f1-1286-4127-a37e-0003357ec115
+2025-04-08T20:20:53.101+0000 I STORAGE  [conn27] createCollection: octofit_db.octofit_tracker_activity with generated UUID: 864d0d28-489b-4abf-a333-28b4f06fc80a
+2025-04-08T20:20:53.110+0000 I STORAGE  [conn27] createCollection: octofit_db.octofit_tracker_leaderboard with generated UUID: a130fccd-a904-4c6f-9ba9-fc9f24b86f28
+2025-04-08T20:20:53.119+0000 I STORAGE  [conn27] createCollection: octofit_db.octofit_tracker_workout with generated UUID: 5af2c442-747a-4419-bc12-37f698fb2389
+2025-04-08T20:20:53.126+0000 I NETWORK  [conn25] end connection 127.0.0.1:42838 (3 connections now open)
+2025-04-08T20:20:53.126+0000 I NETWORK  [conn24] end connection 127.0.0.1:42832 (2 connections now open)
+2025-04-08T20:20:53.126+0000 I NETWORK  [conn26] end connection 127.0.0.1:42854 (1 connection now open)
+2025-04-08T20:20:53.126+0000 I NETWORK  [conn27] end connection 127.0.0.1:42866 (0 connections now open)
