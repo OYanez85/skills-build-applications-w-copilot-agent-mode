@@ -46,6 +46,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -79,12 +80,14 @@ WSGI_APPLICATION = "octofit_tracker.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
+# Configure MongoDB as the default database using Djongo
 DATABASES = {
     "default": {
         "ENGINE": "djongo",
-        "NAME": config("DB_NAME", default="octofit_db"),
-        "HOST": config("DB_HOST", default="localhost"),
-        "PORT": config("DB_PORT", default=27017, cast=int),
+        "NAME": "octofit_db",
+        "CLIENT": {
+            "host": "mongodb://localhost:27017",
+        },
     }
 }
 
