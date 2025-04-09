@@ -1,6 +1,6 @@
 # Add necessary configurations for the octofit-tracker project
 
-# Ensure INSTALLED_APPS and MIDDLEWARE are initialized
+# Consolidating INSTALLED_APPS and MIDDLEWARE blocks
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
@@ -8,6 +8,10 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "rest_framework",
+    "corsheaders",
+    "tracker",
+    "octofit_tracker",
 ]
 
 MIDDLEWARE = [
@@ -18,10 +22,11 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
 ]
 
-# Database configuration for MongoDB
-databases = {
+# Ensure only one DATABASES block remains
+DATABASES = {
     "default": {
         "ENGINE": "djongo",
         "NAME": "octofit_db",
@@ -29,19 +34,6 @@ databases = {
         "PORT": 27017,
     }
 }
-
-# Installed apps
-INSTALLED_APPS += [
-    "rest_framework",
-    "corsheaders",
-    "tracker",
-    "octofit_tracker",
-]
-
-# Middleware for CORS
-MIDDLEWARE += [
-    "corsheaders.middleware.CorsMiddleware",
-]
 
 # Allow all hosts
 ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
