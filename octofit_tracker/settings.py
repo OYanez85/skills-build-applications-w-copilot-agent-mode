@@ -25,7 +25,8 @@ SECRET_KEY = "django-insecure-^*kv6407de3&3#i2i4$qbur5y8sn=t4!5tg)yjev9ql)welr86
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+CORS_ALLOW_ALL_ORIGINS = True
 
 
 # Application definition
@@ -37,6 +38,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "rest_framework",
+    "corsheaders",
     "tracker",
     "octofit_tracker",
 ]
@@ -49,6 +52,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
 ]
 
 ROOT_URLCONF = "octofit_tracker.urls"
@@ -78,10 +82,8 @@ DATABASES = {
     "default": {
         "ENGINE": "djongo",
         "NAME": "octofit_db",
-        "ENFORCE_SCHEMA": False,
-        "CLIENT": {
-            "host": "mongodb://localhost:27017",
-        }
+        "HOST": "localhost",
+        "PORT": 27017,
     }
 }
 
